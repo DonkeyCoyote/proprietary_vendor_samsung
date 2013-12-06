@@ -12,10 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := manta/BoardConfigPartial.mk
+LOCAL_PATH := $(call my-dir)
 
--include vendor/samsung/manta/audience/$(LOCAL_STEM)
--include vendor/samsung/manta/broadcom/$(LOCAL_STEM)
--include vendor/samsung/$(LOCAL_STEM)
--include vendor/samsung/manta/widevine/$(LOCAL_STEM)
+ifeq ($(TARGET_DEVICE),manta)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := es305_fw
+LOCAL_SRC_FILES := es305_fw.bin
+LOCAL_MODULE_SUFFIX := .bin
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := audience
+include $(BUILD_PREBUILT)
+
+endif
