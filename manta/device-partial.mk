@@ -23,10 +23,8 @@ PRODUCT_PACKAGES :=     fimc_is_fw \
     00060308060501020000000000000000 \
     020a0000000000000000000000000000 \
     07060000000000000000000000000000 \
-    libbccArm.sha1 \
-    libbccArm \
-    libbcinfoArm \
-    libclcoreArm \
-    libclcore_neonArm \
+    ffffffff000000000000000000000005 \
+    libGLES_mali \
+    libmalicore \
     libRSDriverArm \
-    libGLES_mali
+    libstagefright_hdcp
