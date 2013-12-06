@@ -12,10 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := manta/BoardConfigPartial.mk
-
--include vendor/samsung/manta/audience/$(LOCAL_STEM)
--include vendor/samsung/manta/broadcom/$(LOCAL_STEM)
--include vendor/samsung/$(LOCAL_STEM)
--include vendor/samsung/manta/widevine/$(LOCAL_STEM)
-
+# Audience blob(s) necessary for manta hardware
+PRODUCT_PACKAGES := \
+    es305_fw
