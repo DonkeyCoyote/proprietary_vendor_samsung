@@ -11,11 +11,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-LOCAL_STEM := manta/BoardConfigPartial.mk
-
--include vendor/samsung/manta/audience/$(LOCAL_STEM)
--include vendor/samsung/manta/broadcom/$(LOCAL_STEM)
--include vendor/samsung/$(LOCAL_STEM)
--include vendor/samsung/manta/widevine/$(LOCAL_STEM)
-

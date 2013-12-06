@@ -14,9 +14,9 @@
 
 LOCAL_STEM := manta/device-partial.mk
 
-$(call inherit-product-if-exists, vendor/audience/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/samsung/manta/audience/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/samsung/manta/broadcom/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/samsung/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/widevine/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/samsung/manta/widevine/$(LOCAL_STEM))
 
 PRODUCT_RESTRICT_VENDOR_FILES := owner
