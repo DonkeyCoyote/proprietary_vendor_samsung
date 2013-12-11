@@ -1,4 +1,4 @@
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright 2012 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -97,6 +97,16 @@ LOCAL_MODULE_OWNER := samsung_arm
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libdrmdecrypt
+LOCAL_SRC_FILES := libdrmdecrypt.so
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := samsung
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libmalicore
 LOCAL_SRC_FILES := libmalicore.bc
 LOCAL_MODULE_SUFFIX := .bc
@@ -123,7 +133,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := samsung_arm
+LOCAL_MODULE_OWNER := samsung
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -165,6 +175,5 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/secapp
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := samsung
 include $(BUILD_PREBUILT)
-
 
 endif
