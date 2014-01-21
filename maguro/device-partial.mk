@@ -13,15 +13,36 @@
 # limitations under the License.
 
 # Samsung blob(s) necessary for Maguro hardware
-PRODUCT_PACKAGES := \
+PRODUCT_PACKAGES += \
+    bcm4330 \
+    ducati-m3 \
     fRom \
     gps.omap4 \
+    libdrmdecrypt \
+    libdrmwvmplugin \
+    libfrsdk \
+    libinvensense_mpl \
+    libpn544_fw \
     libsec-ril \
     libsecril-client \
-    ducati-m3 \
-    libdrmwvmplugin \
+    libwvdrmengine \
     libWVStreamControlAPI_L1 \
     libwvdrm_L1 \
     libwvm \
-    libpn544_fw \
     sirfgps
+
+# Imgtec blob(s) necessary for Maguro hardware
+PRODUCT_PACKAGES += \
+    pvrsrvctl \
+    libEGL_POWERVR_SGX540_120 \
+    libGLESv1_CM_POWERVR_SGX540_120 \
+    libGLESv2_POWERVR_SGX540_120 \
+    gralloc.omap4 \
+    libglslcompiler \
+    libIMGegl \
+    libpvr2d \
+    libpvrANDROID_WSEGL \
+    libPVRScopeServices \
+    libsrv_init \
+    libsrv_um \
+    libusc
