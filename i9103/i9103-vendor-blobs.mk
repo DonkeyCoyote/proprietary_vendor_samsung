@@ -34,7 +34,8 @@ PRODUCT_COPY_FILES += \
 
 # RIL files
 PRODUCT_COPY_FILES += \
-    vendor/samsung/i9103/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so
+    vendor/samsung/i9103/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/i9103/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so
 
 # Sensors
 PRODUCT_COPY_FILES += \
