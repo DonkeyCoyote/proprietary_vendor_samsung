@@ -15,18 +15,14 @@
 LOCAL_PATH := vendor/samsung/n7100
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/bin/gpsd:system/bin/gpsd \
-    $(LOCAL_PATH)/proprietary/system/bin/sensorhubservice:system/bin/sensorhubservice
+    $(LOCAL_PATH)/proprietary/system/bin/gpsd:system/bin/gpsd
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/lib/libakm.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so
+    $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.smdk4x12.so:system/lib/hw/sensors.smdk4x12.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/sensorhubs.smdk4x12.so:system/lib/hw/sensorhubs.smdk4x12.so
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/usr/idc/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc
