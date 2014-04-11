@@ -17,7 +17,6 @@ LOCAL_PATH := vendor/samsung/t0lte
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/at_distributor:system/bin/at_distributor \
     $(LOCAL_PATH)/proprietary/system/bin/efsks:system/bin/efsks \
-    $(LOCAL_PATH)/proprietary/system/bin/gsiff_daemon:system/bin/gsiff_daemon \
     $(LOCAL_PATH)/proprietary/system/bin/ks:system/bin/ks \
     $(LOCAL_PATH)/proprietary/system/bin/netmgrd:system/bin/netmgrd \
     $(LOCAL_PATH)/proprietary/system/bin/qcks:system/bin/qcks \
