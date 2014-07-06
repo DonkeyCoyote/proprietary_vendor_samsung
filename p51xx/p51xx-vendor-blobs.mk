@@ -16,7 +16,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p51xx/common/system/bin/bintvoutservice:system/bin/bintvoutservice \
     vendor/samsung/p51xx/common/system/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/p51xx/common/system/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/p51xx/common/system/bin/hostapd:system/bin/hostapd \
     vendor/samsung/p51xx/common/system/bin/orientationd:system/bin/orientationd \
     vendor/samsung/p51xx/common/system/bin/smc.ini:system/bin/smc.ini \
     vendor/samsung/p51xx/common/system/bin/smc_pa.ift:system/bin/smc_pa.ift
