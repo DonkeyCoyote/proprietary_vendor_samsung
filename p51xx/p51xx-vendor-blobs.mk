@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p51xx/common/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/p51xx/common/system/lib/hw/vendor-camera.piranha.so:system/lib/hw/vendor-camera.piranha.so \
+    vendor/samsung/p51xx/common/system/lib/hw/vendor-camera.piranha.so:system/lib/hw/camera.vendor.piranha.so \
     vendor/samsung/p51xx/common/system/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
     vendor/samsung/p51xx/common/system/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
     vendor/samsung/p51xx/common/system/lib/libtiutils.so:system/lib/libtiutils.so
