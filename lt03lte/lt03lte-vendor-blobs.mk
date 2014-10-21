@@ -238,4 +238,5 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
-	vendor/samsung/lt03lte/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so
+	vendor/samsung/lt03lte/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+  vendor/samsung/lt03lte/proprietary/lib/libxml2.so:system/lib/libxml2.so
