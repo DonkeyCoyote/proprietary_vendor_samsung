@@ -226,7 +226,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-	vendor/samsung/lt03lte/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
@@ -239,4 +238,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-  vendor/samsung/lt03lte/proprietary/lib/libxml2.so:system/lib/libxml2.so
+  vendor/samsung/lt03lte/proprietary/lib/libxml2.so:system/lib/libxml2.so \
+  vendor/samsung/lt03lte/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+  vendor/samsung/lt03lte/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so
