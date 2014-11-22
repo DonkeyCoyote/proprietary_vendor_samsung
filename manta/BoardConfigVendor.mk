@@ -1,4 +1,4 @@
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright 2012 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,5 +17,3 @@ LOCAL_STEM := manta/BoardConfigPartial.mk
 -include vendor/samsung/manta/audience/$(LOCAL_STEM)
 -include vendor/samsung/manta/broadcom/$(LOCAL_STEM)
 -include vendor/samsung/$(LOCAL_STEM)
--include vendor/samsung/manta/widevine/$(LOCAL_STEM)
-
