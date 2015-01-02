@@ -16,8 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/toroplus/proprietary/lib/lib_gsd4t.so:system/lib/lib_gsd4t.so \
-    vendor/samsung/toroplus/proprietary/lib/libsyncml_core.so:system/lib/libsyncml_core.so \
-    vendor/samsung/toroplus/proprietary/lib/libsyncml_port.so:system/lib/libsyncml_port.so \
     vendor/samsung/toroplus/proprietary/vendor/lib/libsec-ril_lte.so:system/vendor/lib/libsec-ril_lte.so \
     vendor/samsung/toroplus/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/toroplus/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
