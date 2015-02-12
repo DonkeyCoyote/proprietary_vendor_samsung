@@ -12,17 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Live wallpaper packages and Themes
-PRODUCT_PACKAGES := \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    VisualizationWallpapers \
-    librs_jni
-
-# Publish that we support the live wallpaper feature.
-PRODUCT_COPY_FILES := \
-    packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
-
 $(call inherit-product, vendor/samsung/p1/p1-vendor-blobs.mk)
 $(call inherit-product, vendor/samsung/p1-common/p1-common-vendor-blobs.mk)
