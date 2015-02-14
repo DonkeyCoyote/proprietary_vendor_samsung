@@ -59,10 +59,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p51xx/common/system/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/p51xx/common/system/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/samsung/p51xx/common/system/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/samsung/p51xx/common/system/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/samsung/p51xx/common/system/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/samsung/p51xx/common/system/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/samsung/p51xx/common/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/p51xx/common/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/samsung/p51xx/common/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/p51xx/common/system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/samsung/p51xx/common/system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
     vendor/samsung/p51xx/common/system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so
