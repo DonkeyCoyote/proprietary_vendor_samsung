@@ -17,7 +17,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p31xx/common/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/p31xx/common/system/lib/hw/vendor-camera.piranha.so:system/lib/hw/camera.vendor.piranha.so
-
-PRODUCT_COPY_FILES += \
     vendor/samsung/p31xx/common/system/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin
