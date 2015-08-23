@@ -19,9 +19,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/omap4-common/proprietary/system/etc/powervr.ini:system/etc/powervr.ini \
-    vendor/samsung/omap4-common/proprietary/system/vendor/bin/pvrsrvctl_SGX540_120:system/vendor/bin/pvrsrvctl_SGX540_120 \
-    vendor/samsung/omap4-common/proprietary/system/vendor/bin/pvrsrvctl_SGX544_112:system/vendor/bin/pvrsrvctl_SGX544_112 \
-    vendor/samsung/omap4-common/proprietary/system/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/samsung/omap4-common/proprietary/system/vendor/lib/hw/gralloc.omap4430.so:system/vendor/lib/hw/gralloc.omap4430.so \
     vendor/samsung/omap4-common/proprietary/system/vendor/lib/hw/gralloc.omap4460.so:system/vendor/lib/hw/gralloc.omap4460.so \
     vendor/samsung/omap4-common/proprietary/system/vendor/lib/hw/gralloc.omap4470.so:system/vendor/lib/hw/gralloc.omap4470.so \
@@ -41,3 +38,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/omap4-common/proprietary/system/vendor/lib/libsrv_um_SGX544_112.so:system/vendor/lib/libsrv_um_SGX544_112.so \
     vendor/samsung/omap4-common/proprietary/system/vendor/lib/libusc_SGX540_120.so:system/vendor/lib/libusc_SGX540_120.so \
     vendor/samsung/omap4-common/proprietary/system/vendor/lib/libusc_SGX544_112.so:system/vendor/lib/libusc_SGX544_112.so
+
+ifeq ($(filter p3100 p3110 p5100 p5110,$(TARGET_DEVICE)),)
+PRODUCT_COPY_FILES += \
+    vendor/samsung/omap4-common/proprietary/system/vendor/bin/pvrsrvctl_SGX540_120:system/vendor/bin/pvrsrvctl_SGX540_120 \
+    vendor/samsung/omap4-common/proprietary/system/vendor/bin/pvrsrvctl_SGX544_112:system/vendor/bin/pvrsrvctl_SGX544_112 \
+    vendor/samsung/omap4-common/proprietary/system/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit
+endif
