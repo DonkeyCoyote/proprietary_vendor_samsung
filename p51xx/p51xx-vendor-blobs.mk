@@ -14,7 +14,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/p51xx/common/system/bin/bintvoutservice:system/bin/bintvoutservice \
-    vendor/samsung/p51xx/common/system/bin/dock_kbd_attach:system/bin/dock_kbd_attach \
     vendor/samsung/p51xx/common/system/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/p51xx/common/system/bin/gpsd:system/bin/gpsd \
     vendor/samsung/p51xx/common/system/bin/hostapd:system/bin/hostapd \
