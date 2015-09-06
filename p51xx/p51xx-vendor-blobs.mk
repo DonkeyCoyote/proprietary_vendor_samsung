@@ -14,11 +14,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/p51xx/common/system/bin/bintvoutservice:system/bin/bintvoutservice \
-    vendor/samsung/p51xx/common/system/bin/dock_kbd_attach:system/bin/dock_kbd_attach \
-    vendor/samsung/p51xx/common/system/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/p51xx/common/system/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/p51xx/common/system/bin/hostapd:system/bin/hostapd \
-    vendor/samsung/p51xx/common/system/bin/orientationd:system/bin/orientationd \
     vendor/samsung/p51xx/common/system/bin/smc.ini:system/bin/smc.ini \
     vendor/samsung/p51xx/common/system/bin/smc_pa.ift:system/bin/smc_pa.ift
 
@@ -31,25 +27,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p51xx/common/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/p51xx/common/system/lib/hw/vendor-camera.piranha.so:system/lib/hw/vendor-camera.piranha.so \
-    vendor/samsung/p51xx/common/system/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
-    vendor/samsung/p51xx/common/system/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
-    vendor/samsung/p51xx/common/system/lib/libtiutils.so:system/lib/libtiutils.so
+    vendor/samsung/p51xx/common/system/lib/hw/gps.manta.so:system/lib/hw/gps.omap4.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/p51xx/common/system/lib/libdomx.so:system/lib/libdomx.so \
     vendor/samsung/p51xx/common/system/lib/libhdcp.so:system/lib/libhdcp.so \
-    vendor/samsung/p51xx/common/system/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
-    vendor/samsung/p51xx/common/system/lib/libion.omap4.so:system/lib/libion.omap4.so \
-    vendor/samsung/p51xx/common/system/lib/libion_ti.so:system/lib/libion_ti.so \
-    vendor/samsung/p51xx/common/system/lib/libmm_osal.so:system/lib/libmm_osal.so \
-    vendor/samsung/p51xx/common/system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so:system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
-    vendor/samsung/p51xx/common/system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so:system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so \
-    vendor/samsung/p51xx/common/system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so:system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so \
-    vendor/samsung/p51xx/common/system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.so:system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.so \
-    vendor/samsung/p51xx/common/system/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so:system/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so \
-    vendor/samsung/p51xx/common/system/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so:system/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so \
-    vendor/samsung/p51xx/common/system/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
     vendor/samsung/p51xx/common/system/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     vendor/samsung/p51xx/common/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/p51xx/common/system/lib/libtvoutinterface.so:system/lib/libtvoutinterface.so \
@@ -61,10 +42,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p51xx/common/system/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/p51xx/common/system/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/samsung/p51xx/common/system/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/samsung/p51xx/common/system/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/samsung/p51xx/common/system/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/samsung/p51xx/common/system/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/samsung/p51xx/common/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/p51xx/common/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/samsung/p51xx/common/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/p51xx/common/system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/samsung/p51xx/common/system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
     vendor/samsung/p51xx/common/system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so
