@@ -1,8 +1,6 @@
 # common tuna files copied to default locations
 PRODUCT_COPY_FILES += \
     vendor/samsung/tuna/common/proprietary/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
-    vendor/samsung/tuna/common/proprietary/vendor/firmware/mms144_ts_rev31.fw:system/vendor/firmware/mms144_ts_rev31.fw \
-    vendor/samsung/tuna/common/proprietary/vendor/firmware/mms144_ts_rev32.fw:system/vendor/firmware/mms144_ts_rev32.fw \
     vendor/samsung/tuna/common/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
     vendor/samsung/tuna/common/proprietary/vendor/lib/libinvensense_mpl.so:system/vendor/lib/libinvensense_mpl.so
 
