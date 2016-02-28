@@ -14,27 +14,25 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/espresso-common/proprietary/system/bin/geomagneticd:system/bin/geomagneticd \
-    vendor/samsung/espresso-common/proprietary/system/bin/gpsd:system/bin/gpsd \
     vendor/samsung/espresso-common/proprietary/system/bin/orientationd:system/bin/orientationd \
     vendor/samsung/espresso-common/proprietary/system/bin/smc.ini:system/bin/smc.ini \
     vendor/samsung/espresso-common/proprietary/system/bin/smc_pa.ift:system/bin/smc_pa.ift
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/espresso-common/proprietary/system/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/espresso-common/proprietary/system/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/espresso-common/proprietary/system/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
-    vendor/samsung/espresso-common/proprietary/system/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin
+    vendor/samsung/espresso-common/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/espresso-common/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/espresso-common/proprietary/system/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so
+    vendor/samsung/espresso-common/proprietary/system/lib/libtiutils.so:system/lib/libtiutils.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/espresso-common/proprietary/system/lib/libion_ti.so:system/lib/libion_ti.so \
     vendor/samsung/espresso-common/proprietary/system/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     vendor/samsung/espresso-common/proprietary/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/espresso-common/proprietary/system/vendor/firmware/BCM4330.hcd:system/vendor/firmware/BCM4330.hcd
+    vendor/samsung/espresso-common/proprietary/system/vendor/firmware/BCM4330.hcd:system/vendor/firmware/BCM4330.hcd \
+    vendor/samsung/espresso-common/proprietary/system/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/espresso-common/proprietary/system/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \

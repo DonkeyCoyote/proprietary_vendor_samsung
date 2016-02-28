@@ -13,8 +13,12 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/p31xx/common/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/p31xx/common/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
+    vendor/samsung/p31xx/common/system/bin/gpsd:system/bin/gpsd
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/p31xx/common/system/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin
+    vendor/samsung/p31xx/common/system/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/p31xx/common/system/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/p31xx/common/system/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/p31xx/common/system/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so
