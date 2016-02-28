@@ -13,8 +13,4 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/p51xx/common/system/bin/gpsd:system/bin/gpsd
-
-PRODUCT_COPY_FILES += \
-    vendor/samsung/p51xx/common/system/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
     vendor/samsung/p51xx/common/system/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so
