@@ -31,10 +31,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espresso-common/proprietary/system/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/espresso-common/proprietary/system/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/samsung/espresso-common/proprietary/system/vendor/lib/libdrmmtkutil.so:system/vendor/lib/libdrmmtkutil.so \
-    vendor/samsung/espresso-common/proprietary/system/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/samsung/espresso-common/proprietary/system/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/samsung/espresso-common/proprietary/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/samsung/espresso-common/proprietary/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/espresso-common/proprietary/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/samsung/espresso-common/proprietary/system/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so
