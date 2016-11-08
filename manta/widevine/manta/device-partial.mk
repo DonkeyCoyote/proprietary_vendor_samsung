@@ -15,14 +15,13 @@
 # Widevine blob(s) necessary for Manta hardware
 
 PRODUCT_COPY_FILES += \
-    proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar
+    vendor/samsung/manta/widevine/manta/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+    vendor/samsung/manta/widevine/manta/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar
 
 
 PRODUCT_PACKAGES := \
     libwvdrm_L1 \
     libWVStreamControlAPI_L1 \
-    libwvm \
     libdrmwvmplugin \
     libdrmdecrypt \
     libwvdrmengine
