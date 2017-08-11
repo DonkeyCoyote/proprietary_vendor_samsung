@@ -26,6 +26,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/tuna/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so
 
+# Touchscreen
+PRODUCT_COPY_FILES += \
+    vendor/samsung/tuna/proprietary/vendor/firmware/mms144_ts_rev31.fw:system/vendor/firmware/mms144_ts_rev31.fw \
+    vendor/samsung/tuna/proprietary/vendor/firmware/mms144_ts_rev32.fw:system/vendor/firmware/mms144_ts_rev32.fw
+
 # Widevine DRM
 PRODUCT_COPY_FILES += \
     vendor/samsung/tuna/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
