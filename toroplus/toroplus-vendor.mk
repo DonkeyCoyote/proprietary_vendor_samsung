@@ -18,7 +18,6 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/samsung/toroplus/overlay
 
 $(call inherit-product, vendor/samsung/toroplus/toroplus-vendor-blobs.mk)
-$(call inherit-product, vendor/samsung/tuna/tuna-vendor.mk)
 PRODUCT_PACKAGES += BIP
 PRODUCT_PACKAGES += HiddenMenu
 PRODUCT_PACKAGES += SDM
